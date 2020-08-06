@@ -37,7 +37,7 @@ namespace IPTreatment.Controllers
             SpecialistDetail specialist = new SpecialistDetail();
             using (var client = new HttpClient())
             {
-                client.BaseAddress = new Uri("http://localhost:64484/");
+                client.BaseAddress = new Uri("http://52.154.41.190/");
                 client.DefaultRequestHeaders.Accept.Clear();
                 client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
                 HttpResponseMessage response = new HttpResponseMessage();
