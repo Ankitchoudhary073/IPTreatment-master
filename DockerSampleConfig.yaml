@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: iptreatmentrepos
-        image: myregdsconfig.azurecr.io/dockersamplerepos:latest
+        image: iptreatmentmanagement3cr.azurecr.io/iptreatmentrepos:latest
         ports:
         - containerPort: 8080
       imagePullSecrets:
